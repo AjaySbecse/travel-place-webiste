@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>
+            Contact Me
+        </title>
+        <style>
+            *{
+                margin: 0px;
+            }
+            header{
+                background-color: rgb(29, 19, 121);
+                padding: 20px;
+                text-align: center;
+            }
+            header a{
+                text-decoration: none;
+                color:white;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            body{
+                background-color: #f2f6ff;
+            }
+            footer{
+            text-align: center;
+            background-color: black;
+            padding: 20px;
+            position: absolute;
+            bottom:0;
+            width:97%;
+            }
+            footer span{
+                color:white;
+                font-weight: bold;
+            }
+            h1{
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+            form{
+                width:30%;
+                background-color: aqua;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+                border: 1px solid #ccc;
+            }
+            input{   
+                border-top:none;
+                border-left: none;
+                border-right: none;
+                width: 80%;
+                font-size: 18px;
+                padding: 10px 8px 10px 10px;
+                
+            }
+            .input-container{
+               padding: 10px;
+            }
+            .submit{
+                background-color: #19408f;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 24px;
+                padding-right: 24px;
+                font-size: 18px;
+                color: white;
+                border: none;
+                width: 120px;
+                cursor: pointer;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="/HTML Final Project/home.html"><span>TRIPS</span></a>
+            
+            <a href="/HTML Final Project/contact.html"><span>CONTACT</span></a>
+        </header>
+        <h1>Contact Me</h1>
+        <form method="GET">
+            <div class="input-container"><input type="text" placeholder="Full Name" name = "name"/></div>
+            <div class="input-container"><input type="email" placeholder="Email" name="email"/></div>
+            <div class="input-container"><input type="number" placeholder="Contact Number" name="contact-number" /></div>
+            <div class="input-container"><input type="submit" value="Submit" class="submit"/></div>
+        </form>
+        <footer>
+            <span>@Copyright 2021</span>
+        </footer>
+    </body>
+</html>
